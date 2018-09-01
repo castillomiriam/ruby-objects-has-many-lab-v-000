@@ -4,7 +4,7 @@ class Author
 
   def initialize(name)
     @name = name
-    @songs = []
+    @posts = []
   end
 
   def self.song_count
