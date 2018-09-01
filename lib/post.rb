@@ -8,7 +8,7 @@ class Post
     @@all
   end
 
-  def initialize(name)
+  def initialize(title)
     @name = name
     @@all << self
     end
