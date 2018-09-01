@@ -13,5 +13,5 @@ class Author
 
   def add_post(title)
     @posts << title
-    #song.artist = self
+    post.author = self
   end
