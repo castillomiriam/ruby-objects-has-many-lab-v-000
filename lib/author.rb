@@ -7,11 +7,11 @@ class Author
     @posts = []
   end
 
-  #def self.song_count
-  #  Song.all.count
-  #end
+  def self.post_count
+    Post.all.count
+  end
 
-  #def add_song(song)
+  def add_song(song)
     #@songs << song
     #song.artist = self
   end
