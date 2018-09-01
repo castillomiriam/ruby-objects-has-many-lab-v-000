@@ -11,7 +11,7 @@ class Author
     Post.all.count
   end
 
-  def add_song(song)
+  def add_post(title)
     #@songs << song
     #song.artist = self
   end
